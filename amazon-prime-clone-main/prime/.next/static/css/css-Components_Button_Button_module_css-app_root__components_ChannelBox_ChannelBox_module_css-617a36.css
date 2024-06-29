@@ -1,0 +1,134 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(root)/page.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.page_Home__Q8tMA {
+    background: url(/assets/Hero1.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.page_HomeContent__1HccX::before,
+.page_RentalHomeContent__C6fug::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, #000 40%, transparent 58%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.page_HomeContent__1HccX div,
+.page_RentalHomeContent__C6fug div,
+.page_Firestick_HomeContent__43GHO div {
+    color: #fff;
+    position: relative;
+    padding: 50px;
+}
+
+.page_HomeContent__1HccX div h6,
+.page_RentalHomeContent__C6fug div h6,
+.page_Firestick_HomeContent__43GHO div h6 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.page_HomeContent__1HccX div h5,
+.page_RentalHomeContent__C6fug div h5,
+.page_Firestick_HomeContent__43GHO div h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/* For Rental Home */
+.page_RentalHome__r67SQ {
+    background: url(/assets/Hero2.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* For Firestick */
+
+.page_Firestick_Home__uxnHB {
+    background: url(/assets/Firestick.jpg);
+    background-size: cover;
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.page_Firestick_HomeContent__43GHO::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to left, #000 40%, transparent 58%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./Components/Button/Button.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Button_Button__DcdmW {
+    background: var(--main);
+    color: #fff;
+    font-weight: 800;
+    padding: 10px 14px;
+    border-radius: 2px;
+}
+
+.Button_Button__DcdmW:hover {
+    background: var(--HoverColor);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(root)/_components/Channels/Channels.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.Channels_Channels__W442E {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
+
+.Channels_Channels__W442E div h6 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.Channels_Channels__W442E div p {
+    font-size: 20px;
+    margin-block: 30px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(root)/_components/ChannelBox/ChannelBox.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.ChannelBox_ChannelBox__MJ5f_ {
+    margin-inline: 10px;
+}
+
+.ChannelBox_ChannelBox__MJ5f_ img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.ChannelBox_ChannelBox__MJ5f_ img:hover {
+    box-shadow: 20px 20px 20px -20px rgba(0, 0, 0, 0.9);
+    transform: scale(1.02);
+}

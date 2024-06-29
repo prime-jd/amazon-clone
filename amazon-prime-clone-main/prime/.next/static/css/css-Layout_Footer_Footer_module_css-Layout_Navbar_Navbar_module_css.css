@@ -1,0 +1,65 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./Layout/Footer/Footer.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_Footer__hvBFL {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: var(--mainColor);
+}
+
+.Footer_Footer__hvBFL .Footer_FooterRow__CblnG {
+    text-align: center;
+    margin-block: 30px;
+}
+
+.Footer_FooterRow__CblnG img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.Footer_FooterLinks__gIEU0 {
+    margin-block: 10px;
+}
+
+.Footer_FooterLink__oG7VZ {
+    color: var(--main);
+    margin-inline: 10px;
+}
+
+.Footer_Footer__hvBFL p {
+    color: #8d8686;
+    margin-top: 10px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./Layout/Navbar/Navbar.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_NavbarMain__7VMVe {
+    background: var(--mainColor);
+    padding-inline: 400px;
+    padding-block: 20px;
+    display: flex;
+    gap: 100px;
+}
+
+.Navbar_NavbarMain__7VMVe img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    height: max-content;
+}
+
+.Navbar_NavbarMain__7VMVe .Navbar_NavLinks__neX41 {
+    margin-top: 10px;
+}
+
+.Navbar_NavbarMain__7VMVe .Navbar_NavLinks__neX41 .Navbar_NavLink__ufGZo {
+    color: #938c8c;
+    font-weight: 700;
+    margin-inline: 20px;
+}
+
+.Navbar_NavLinks__neX41 .Navbar_NavLink__ufGZo:hover {
+    color: #fff;
+}

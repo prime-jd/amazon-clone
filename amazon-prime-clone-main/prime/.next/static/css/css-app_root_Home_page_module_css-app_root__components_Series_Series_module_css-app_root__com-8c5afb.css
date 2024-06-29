@@ -1,0 +1,217 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(root)/Home/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.page_Home___4ldi {
+    margin: 0 auto;
+    padding: 0;
+    z-index: 1;
+
+}
+
+.page_HomeRow__z2CJv {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.page_HomeRow__z2CJv::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, #000 40%, transparent 58%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.page_HomeBox__9BufR {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.page_HomeBox__9BufR img {
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.page_HomeBoxContent__K7KOM {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 700px;
+    padding: 20px;
+}
+
+.page_HomeBoxContentActive__kWrt0 {
+    opacity: 1;
+}
+
+.page_HomeBoxContent__K7KOM h6 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-block: 20px;
+}
+
+.page_HomeBoxContent__K7KOM .page_Desc__2f4m9 {
+    color: #ebeaea;
+}
+
+.page_HomeBoxContent__K7KOM .page_CustomBox__TE49w {
+    margin-top: 10px;
+}
+
+.page_HomeBoxContent__K7KOM .page_CustomBox__TE49w span {
+    color: #ccc;
+    margin-right: 10px;
+}
+
+.page_HomeBoxContent__K7KOM .page_GenreBox__qShoT {
+    margin-top: 10px;
+}
+
+.page_HomeBoxContent__K7KOM .page_GenreBox__qShoT span {
+    color: #908c8c;
+    text-decoration: underline;
+}
+
+
+/* For Icons Box */
+.page_IconsBox__pBQ6f {
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.page_IconsBox__pBQ6f a .page_Icon__K1D4E {
+    background: #d4cdcd;
+    color: #000;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.page_IconsBox__pBQ6f a:hover .page_Icon__K1D4E {
+    transform: scale(0.8);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(root)/_components/Series/Series.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.Series_Series__GQAIl {
+    margin-bottom: 100px;
+    margin-top: 10px;
+
+}
+
+.Series_SeriesContent__4YXzz h6 {
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--main);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(root)/_components/SeriesBox/SeriesBox.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.SeriesBox_SeriesRow__DmAox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+.SeriesBox_SeriesRow__DmAox .SeriesBox_SeriesBox__bgiav {
+    height: max-content;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.7);
+    background: #000;
+    margin-top: 20px;
+    transition: 0.2s ease-in;
+}
+
+.SeriesBox_SeriesBox__bgiav:hover {
+    transform: scale(1.08);
+
+}
+
+.SeriesBox_SeriesBox__bgiav img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc {
+    margin-top: 0px;
+    padding: 10px;
+    color: #fff;
+    display: none;
+}
+
+.SeriesBox_SeriesBox__bgiav:hover .SeriesBox_SeriesBoxContent__e3pyc {
+    display: initial;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_Icons__C7_k_ {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_Icons__C7_k_ div {
+    display: flex;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_Icons__C7_k_ p {
+    font-weight: 800;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_Icons__C7_k_ .SeriesBox_Icon__pEQV6 {
+    background: #ccc;
+    color: #000;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_CustomBox__2dUcK {
+    padding: 10px;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_CustomBox__2dUcK h6 {
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_CustomBox__2dUcK .SeriesBox_Year__jhhLz {
+    color: #ccc;
+    margin-block: 10px;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_CustomBox__2dUcK .SeriesBox_Lan__Jc_K4 {
+    font-weight: 700;
+    color: #ccc;
+    margin-bottom: 2px;
+}
+
+.SeriesBox_SeriesBoxContent__e3pyc .SeriesBox_CustomBox__2dUcK .SeriesBox_Desc__d7zFQ {
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+}
